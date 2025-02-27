@@ -33,7 +33,6 @@ const Banner2 = () => {
             <motion.button variants={slideUp(0.6)} initial='initial' whileInView='animate' className='bg-[#B95134] hover:bg-black  text-black hover:text-white duration-300 py-2 px-4 rounded shadow-sm hover:shadow-md'>
                More news
             </motion.button>
-            
              </div>
         </div>
       </div>

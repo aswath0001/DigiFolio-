@@ -5,6 +5,8 @@ import Services from './components/Services/Services';
 import Banner from './components/Banner/Banner';
 import Cards from './components/Cards/Cards';
 import Banner2 from './components/Banner/Banner2';
+import Email from './components/Email/Email';
+
 
 
 const App = () => {
@@ -16,6 +18,7 @@ const App = () => {
       <Banner/>
       <Cards/>
       <Banner2/>
+      <Email/>
     </main>
   )
 };

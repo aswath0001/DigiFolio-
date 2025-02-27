@@ -3,6 +3,7 @@ import Logo from "../../assets/1.jpeg";
 import {motion} from 'framer-motion';
 import {slideUp} from '../Utility/Animation';
 
+
 const Cards = () => {
   return (
     <>

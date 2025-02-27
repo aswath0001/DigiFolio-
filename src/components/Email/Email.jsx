@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 const Email = () => {
   return (
@@ -12,7 +15,9 @@ const Email = () => {
                 <button className='bg-[#B95134] text-black py-2 px-4 rounded shadow-sm hover:shadow-md'>
                  Subscribe
                  <div>
-                    
+                 <FaInstagram />
+                 <FaLinkedin />
+                 <FaFacebook />
                  </div>
                 </button>
             </div>

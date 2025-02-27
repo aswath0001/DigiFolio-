@@ -44,7 +44,7 @@ const Banner = () => {
               opacity:0,
               x:100
             }}
-            animate = {{
+            whileInView = {{
               opacity:1,
               x:0
             }}

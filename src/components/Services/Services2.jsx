@@ -21,14 +21,8 @@ const Services2 = () => {
 
         {/* Cards Section */}
         <div className='grid grid-cols-1 sm:grid-cols-2 gap-8 px-8 md:px-0'>
-          <motion.div
-          initial = {{opacity:0,x:100}}
-          whileInView={{opacity:1, x:0}}
-          transition={{duration:0.5,delay:0.2}}
-          >
-            <img  src={Logo} alt='' className='w-full mx-auto sm:w-[300px]' />
-          </motion.div>
-          <motion.div initial = {{opacity:0,x:100}}
+         
+          <motion.div initial = {{opacity:0,x:-100}}
           whileInView={{opacity:1, x:0}}
           transition={{duration:0.5,delay:0.5}}
            className='max-w-[300px] mx-auto space-y-4'>
@@ -37,6 +31,13 @@ const Services2 = () => {
             <p className='text-gray-500 pl-6 border-l-2'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia consequatur corrupti, adipisci quidem voluptatum dicta.
             </p>
+          </motion.div>
+          <motion.div
+          initial = {{opacity:0,x:-100}}
+          whileInView={{opacity:1, x:0}}
+          transition={{duration:0.5,delay:0.2}}
+          >
+            <img  src={Logo} alt='' className='w-full mx-auto sm:w-[300px]' />
           </motion.div>
           <motion.div variants={slideUp(0.7)} initial='initial' whileInView ='animate' className='max-w-[300px] mx-auto space-y-4'>
             <img src={Logo} alt='' className='w-14' />
